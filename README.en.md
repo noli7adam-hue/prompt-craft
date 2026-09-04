@@ -2,6 +2,8 @@
 
 *[Русская версия](README.md)*
 
+> **Note:** the English skill in `en/` corresponds to version 1. The Russian version at the repository root is at version 2, which adds a third model class (frontier-agentic: Opus 5 and newer), five new practices, a cross-vendor migration protocol, and a source registry — see [CHANGELOG.md](CHANGELOG.md). The English translation of v2 is in progress; everything below still holds.
+
 A Claude Code skill: writing, improving, and auditing prompts for modern LLMs — Claude 4.x/5, GPT-5.x, Gemini 3, Perplexity Sonar and their peers.
 
 The premise: there is no longer such a thing as a universally "good prompt". The practices that worked in 2023 are useless or harmful on the reasoning models of 2025–2026. The skill first determines the model class and the platform, and only then assembles the prompt — from a canonical structure and through a quality checklist.
